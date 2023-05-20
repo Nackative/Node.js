@@ -11,7 +11,7 @@ app.use(morgan('combined'));
 
 app.get("/", (req, res) =>{
 
-    res.send('Hello World');
+    res.render('index', {username: 'Snack', customer:["Nakative16", "Sapphaya", "Kingdom"]});
 
 }) 
 
